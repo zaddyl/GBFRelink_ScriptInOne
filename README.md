@@ -1,5 +1,7 @@
+#GBFR腳本集成
+
 ![main](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image1.png?raw=true)  
-基於FindClick的Relink腳本集成（https://github.com/berban/FindClick）  
+基於`FindClick`的Relink腳本集成（https://github.com/berban/FindClick）  
 只適用於遊戲語言設定為簡中/繁中的情況  
 腳本目前含括加護拆解、自動掛機（可調整seya模式和史萊姆模式）、連發X和連發Y（需要分別按住對應滑鼠按鍵）  
 自動掛機會顯示具體的窗口供細項設定，尚在加強完善中  
