@@ -1,16 +1,17 @@
-# GBFRelink_ScriptInOne  
 ![main](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image1.png?raw=true)  
- 基於FindClick的Relink腳本集成（https://github.com/berban/FindClick），只適用於遊戲語言設定為簡中/繁中的情況  
- 腳本目前含括加護拆解、自動掛機（可調整seya模式和史萊姆模式）、連發X和連發Y（需要分別按住對應滑鼠按鍵）  
- 自動掛機會顯示具體的窗口供細項設定，尚在加強完善中  
+基於FindClick的Relink腳本集成（https://github.com/berban/FindClick）  
+只適用於遊戲語言設定為簡中/繁中的情況  
+腳本目前含括加護拆解、自動掛機（可調整seya模式和史萊姆模式）、連發X和連發Y（需要分別按住對應滑鼠按鍵）  
+自動掛機會顯示具體的窗口供細項設定，尚在加強完善中  
 ![autohang](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image2.png?raw=true)  
 --------------------------------------------------------------------------------------------  
 ![main](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image1.png?raw=true)  
- Includes like slime hanging or wreight-stone dismentaling,this project still in progress.  
- Based on FindClick https://github.com/berban/FindClick and only work in zh-CN & zh-TW.  
- An optionGUI will appear when auto-hanging for adjusting operation detail.  
+Includes like slime hanging or wreight-stone dismentaling,this project still in progress.  
+Based on FindClick https://github.com/berban/FindClick and only work in zh-CN & zh-TW.  
+An optionGUI will appear when auto-hanging for adjusting operation detail.  
 ![autohang](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image2.png?raw=true)  
 --------------------------------------------------------------------------------------------  
+
 
 
 更新計劃：  
