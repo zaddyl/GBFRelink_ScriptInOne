@@ -1,4 +1,4 @@
---#GBFR腳本集成
+#GBFR腳本集成
 -----------------------------------------------------------------------------------------
 
 ![main](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image1.png?raw=true)  
