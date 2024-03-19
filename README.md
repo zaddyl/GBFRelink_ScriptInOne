@@ -1,4 +1,5 @@
-#GBFR腳本集成
+--#GBFR腳本集成
+-----------------------------------------------------------------------------------------
 
 ![main](https://github.com/zaddyl/GBFRelink_ScriptInOne/blob/main/image1.png?raw=true)  
 基於`FindClick`的Relink腳本集成（https://github.com/berban/FindClick）  
