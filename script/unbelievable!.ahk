@@ -25,6 +25,7 @@ while(!findupper()){
 	sleep 20
 }
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手
+exitapp
 
 f10::
 pause, toggle
