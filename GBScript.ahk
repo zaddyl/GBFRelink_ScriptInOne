@@ -3,6 +3,8 @@
 #NoEnv
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1
+uac()
+
 gui +toolwindow
 Gui Font, s9, Segoe UI
 Gui Add, Button, x7 y8 w55 h40 gLClick, 連發X
@@ -34,6 +36,21 @@ return
 F8::
 run %A_ScriptDir%\data\WrightStoneDismental.exe,, hide, hwnd
 return
+
+uac(){
+	full_command_line := DllCall("GetCommandLine", "str")
+	if not (A_IsAdmin or RegExMatch(full_command_line, " /restart(?!\S)"))
+	{
+		try
+		{
+			if A_IsCompiled
+				Run *RunAs "%A_ScriptFullPath%" /restart
+			else
+				Run *RunAs "%A_AhkPath%" /restart "%A_ScriptFullPath%"
+		}
+		ExitApp
+	}
+}
 
 guiescape:
 GuiClose:
