@@ -1,7 +1,6 @@
 ﻿; Bilibili@長野碎毛Semo
 #SingleInstance force
 #NoEnv
-sendmode, input
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1
 setkeydelay 50,10
@@ -51,7 +50,7 @@ if(!findnull()){
 	goto main
 }
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手
-goto guiescape
+exitapp
 
 f8::
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手
