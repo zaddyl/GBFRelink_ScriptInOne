@@ -31,7 +31,7 @@ unbelievable:
 run %A_ScriptDir%\data\unbelievable!.exe,, hide, hwnd
 return
 
-F8:
+F8::
 run %A_ScriptDir%\data\WrightStoneDismental.exe,, hide, hwnd
 return
 
