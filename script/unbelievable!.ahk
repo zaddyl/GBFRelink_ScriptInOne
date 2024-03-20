@@ -4,10 +4,10 @@
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1
 sendmode, input
-setkeydelay 50,10
+setkeydelay 50,20
 setmousedelay 50
 #include findclick.ahk
-winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手：アンビーリーバボ！
+winsettitle, ahk_exe GBScript.exe,,アンビーリーバボ！
 pause, on
 
 findupper(){
@@ -18,12 +18,13 @@ findupper(){
 }
 
 main:
-loop{
-	click
-	sleep 10
-}until findupper()
+while(!findupper()){
+	send,{lbutton up}
+	sleep 20
+	send,{lbutton down}
+	sleep 20
+}
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手
-exitapp
 
 f10::
 pause, toggle
@@ -31,7 +32,7 @@ return
 
 f12::
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手
-goto guiescape
+exitapp
 
 guiescape:
 guiclose:
