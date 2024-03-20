@@ -1,6 +1,7 @@
 ﻿; Bilibili@長野碎毛Semo
 #SingleInstance force
 #NoEnv
+menu,tray,icon,tskbico.dll,3,1
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1
 setkeydelay 50,10
@@ -16,7 +17,7 @@ findcheck(){
 }
 
 findnull(){
-	FindClick("disb", "a80,244,45,45 n0 o20",x,y)
+	FindClick("disb", "a80,244,45,45 n0 o40",x,y)
 	if(x*y){
 		return 1
 	}

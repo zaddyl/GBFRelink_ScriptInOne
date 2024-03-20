@@ -1,6 +1,7 @@
 ﻿; Bilibili@長野碎毛Semo
 #SingleInstance force
 #NoEnv
+menu,tray,icon,tskbico.dll,1,1
 winsettitle, ahk_exe GBScript.exe,,GBFR腳本助手：自動掛機 
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1

@@ -1,6 +1,8 @@
 ﻿; Bilibili@長野碎毛Semo
+#NoTrayIcon
 #SingleInstance force
 #NoEnv
+menu,tray,icon,tskbico.dll,2,1
 SetWorkingDir %A_ScriptDir%
 SetBatchLines -1
 sendmode, input
